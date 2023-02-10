@@ -19,10 +19,10 @@ date_default_timezone_set("Asia/Jakarta");
 error_reporting(0);
 
 	// sesuaikan dengan server anda
-	$host 	= 'mysqldbforall.mysql.database.azure.com'; // host server
-	$user 	= 'mysql';  // username server
+	$host 	= 'database1.cnxhdrdmwrei.us-east-1.rds.amazonaws.com'; // host server
+	$user 	= 'admin';  // username server
 	$pass 	= 'p!ssw0rd'; // password server, kalau pakai xampp kosongin saja
-	$dbname = 'alkaif'; // nama database anda
+	$dbname = 'testdb'; // nama database anda
 	
 	try{
 		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
